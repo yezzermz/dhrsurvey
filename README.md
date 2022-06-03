@@ -1,7 +1,7 @@
 # DHRsurvey
 POC Patient Survey Web Portal
 
-Web Engineer Survey Assignment - The Following project is a poc site which provides dhr patients to provide feedback on their recent hospital stay.
+Web Engineer Survey Assignment - The Following project is a poc site which allows dhr patients to provide feedback on their recent hospital stay.
 
 ##### The following are the asked requirements of survey site:
 > 1.  The web application will consist of 2 pages and should be mobile friendly:

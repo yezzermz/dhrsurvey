@@ -1,0 +1,12 @@
+#error {
+  display: none;
+  font-size: 0.8em;
+}
+
+#error.visible {
+  display: block;
+}
+
+input.invalid {
+  border-color: red;
+}

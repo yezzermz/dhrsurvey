@@ -19,7 +19,7 @@ function validate(e) {
 
   // If first name is null or contains anything other than letters fail validation
   if (!first.value || !first.value.match(letters)) {
-  e.preventDefault();                             // prevents from from subbmission
+    e.preventDefault();                             // prevents from from subbmission
     first.classList.add("invalid");               // add invalid css class to input for red border
     error.classList.add("visible");               // Makes error message visible
     error.setAttribute("aria-hidden", false);     //
@@ -29,7 +29,7 @@ function validate(e) {
 
   // If last name is null or contains anything other than letters fail validation
   if (!last.value || !last.value.match(letters)) {
-  e.preventDefault();
+    e.preventDefault();
     last.classList.add("invalid");
     error.classList.add("visible");
     error.setAttribute("aria-hidden", false);
@@ -39,7 +39,7 @@ function validate(e) {
 
   // If phone number is null or is not a proper number fail validation
   if (!phone.value || !phone.value.match(phoneno)) {
-  e.preventDefault();
+    e.preventDefault();
     phone.classList.add("invalid");
     error.classList.add("visible");
     error.setAttribute("aria-hidden", false);

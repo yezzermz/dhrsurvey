@@ -1,9 +1,9 @@
-#error {
+#nameError {
   display: none;
   font-size: 0.8em;
 }
 
-#error.visible {
+#nameError.visible {
   display: block;
 }
 

@@ -3,7 +3,7 @@ POC Patient Survey Web Portal
 
 Web Engineer Survey Assignment - The Following project is a poc site which provides dhr patients to provide feedback on their recent hospital stay.
 
-The following are the asked requirements of survey site:
+##### The following are the asked requirements of survey site:
 > 1.  The web application will consist of 2 pages and should be mobile friendly:
 > 
 >     A.  Page 1 - Survey Form for Patients that visited hospital
@@ -39,7 +39,7 @@ The following are the asked requirements of survey site:
 >      - Phone Number
 >      - Q1-Q5 Responses
 >
-> Your web application will be assessed based on overall design, functionality and coding standards. Only allow entries if the survey form is filled out > accurately. DHR Health Color is a Plus*: https://www.pantone.com/color-finder/3272-C. Key elements that will be reviewed:
+> Your web application will be assessed based on overall design, functionality and coding standards. Only allow entries if the survey form is filled out accurately. DHR Health Color is a Plus*: https://www.pantone.com/color-finder/3272-C. Key elements that will be reviewed:
 > 
 >1. User Interface Design
 >2. User Experience

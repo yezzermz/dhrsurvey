@@ -12,6 +12,7 @@ const error = document.getElementById("nameError");
 document.getElementById("submit").addEventListener("click", validate);
 
 function validate(e) {
+
   // stop form
   function stop(){
     e.preventDefault();
@@ -42,7 +43,6 @@ function validate(e) {
   first.classList.remove("invalid");    // On each submit click reset input field css class
   last.classList.remove("invalid");     //
   phone.classList.remove("invalid");    //
-
 
   // If first name is null or contains anything other than letters fail validation
   fields(first,letters);

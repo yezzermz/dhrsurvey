@@ -11,6 +11,29 @@ input.invalid {
   border-color: red;
 }
 
+.test {
+  padding-bottom: 3.5rem;
+}
+
+input[type="radio"]{
+  margin: 0 1rem 0 0;
+}
+
+.cent {
+  text-align: center;
+}
+
+.rad {
+  padding-bottom: 2.5rem;
+}
+
+.inputs {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  width: 60%;
+  
+}
+
 .bg{
   background-color: rgb(0, 164, 153);
 }

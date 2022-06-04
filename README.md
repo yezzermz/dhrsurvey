@@ -6,10 +6,9 @@ Web Engineer Survey Assignment - The Following project is a poc site which allow
 ##### The following are the asked requirements of survey site:
 <details><summary>requirements</summary>
 1.  The web application will consist of 2 pages and should be mobile friendly:
-
      A.  Page 1 - Survey Form for Patients that visited hospital
-     
      B.  Page 2 - A thank you form
+     
 2.  Survey Form Page Should request for user input on the following
  
       A.  Satisfaction Assessment for each category (Response options should be: Unhappy, Neutral, Happy)

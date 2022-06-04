@@ -5,7 +5,7 @@ var phoneno = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
 // variables for storing user inputs
 const first = document.getElementById("first");
 const last = document.getElementById("last");
-const phone = document.getElementById("phone");
+const phone = document.getElementById("pat_phone");
 const error = document.getElementById("nameError");
 
 // listens for submit button press

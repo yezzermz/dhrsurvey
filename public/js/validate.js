@@ -12,10 +12,13 @@ const error = document.getElementById("nameError");
 document.getElementById("submit").addEventListener("click", validate);
 
 function validate(e) {
+  // stop form
+  function stop(){
+    e.preventDefault();
+  }
 
   // Makes error message visible
   function alert(){
-    e.preventDefault();
     error.classList.add("visible");
     error.setAttribute("aria-hidden", false);
     error.setAttribute("aria-invalid", true);
@@ -27,17 +30,10 @@ function validate(e) {
     v.value = "";                   // Wrong input reset field
   }
 
-  // Check if radios are selected
-  function radios(x){
-    for (var i = 0, len = x.length; i < len; i++) {
-      if (!x[i].checked) {
-        alert();
-      }
-    }
-  }
-
-  function fields(y){
-    if (!y.value || !y.value.match(letters)) {
+  // Check if input fields are valid
+  function fields(y,z){
+    if (!y.value || !y.value.match(z)) {
+      stop();
       alert();
       paint(y);
     }
@@ -49,23 +45,13 @@ function validate(e) {
 
 
   // If first name is null or contains anything other than letters fail validation
-  fields(first);
+  fields(first,letters);
 
   // If last name is null or contains anything other than letters fail validation
   fields(last);
 
   // If phone number is null or is not a proper number fail validation
-  if (!phone.value || !phone.value.match(phoneno)) {
-    alert();
-    paint(phone);
-  }
-
-  // Check if radios are selected
-  radios(document.getElementsByName("rating1"));
-  radios(document.getElementsByName("rating2"));
-  radios(document.getElementsByName("rating3"));
-  radios(document.getElementsByName("rating4"));
-  radios(document.getElementsByName("rating5"));
+  fields(phone,phoneno);
 
   // else continue with form submission
   return;

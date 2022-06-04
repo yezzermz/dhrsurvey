@@ -4,7 +4,7 @@ POC Patient Survey Web Portal
 Web Engineer Survey Assignment - The Following project is a poc site which allows dhr patients to provide feedback on their recent hospital stay.
 
 ##### The following are the asked requirements of survey site:
-<requirements>
+<details><summary>requirements</summary>
 > 1.  The web application will consist of 2 pages and should be mobile friendly:
 > 
 >     A.  Page 1 - Survey Form for Patients that visited hospital
@@ -48,7 +48,7 @@ Web Engineer Survey Assignment - The Following project is a poc site which allow
 >4. Survey Entry Storage
 >5. Client Side Coding
 >6. Server Side Coding
-</requirements>
+</details>
 
 #### Survey site built using the Following:
 - Front End - HTML, CSS, Javascript

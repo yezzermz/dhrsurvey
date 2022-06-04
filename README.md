@@ -1,5 +1,5 @@
 # DHRsurvey
-POC Patient Survey Web Portal
+### POC Patient Survey Web Portal
 
 Web Engineer Survey Assignment - The Following project is a poc site which allows dhr patients to provide feedback on their recent hospital stay.
 
@@ -51,18 +51,18 @@ Web Engineer Survey Assignment - The Following project is a poc site which allow
 > 6. Server Side Coding
 </details>
 
-#### Survey site built using the Following:
+##### Survey site built using the Following:
 - Front End - HTML, CSS, Javascript
 - Backend - Ruby on Sinatra, Datamapper(SQLite)
 
-#### Quirks:
+##### Quirks:
 - User is able to go back after submitting survey data: Possible simple fix using js/jquery to detect back button press and redirect.
 - Radio buttons unable to clear after incorrect form submission: current workaround is to always have them selected, a possible fix is to clear entire form but seems a bit excessive (still looking).
 
-#### Future:
+##### Future:
 - Transition from Ruby and SQLite over to c# and MS SQL
 
-#### How To Run
+##### How To Run
 Program built with Ruby Sinatra, need working environment to run.
 - [Gettng started with Sinatra](https://www.digitalocean.com/community/tutorials/how-to-install-and-get-started-with-sinatra-on-your-system-or-vps).
 - clone repo and cd into working directory.

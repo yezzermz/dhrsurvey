@@ -13,6 +13,12 @@ document.getElementById("submit").addEventListener("click", validate);
 
 function validate(e) {
 
+  // On Back button press clear form (form has already been submitted)
+  $(window).bind("pageshow", function() {
+      document.getElementById("submission").reset();
+      error.classList.add("hidden");
+  });
+
   // stop form
   function stop(){
     e.preventDefault();
@@ -38,6 +44,20 @@ function validate(e) {
       alert();
       paint(y);
     }
+  }
+
+  // Validate radio selections before submiting, if not all selected unable to go forward
+  var total = 0;                          // Keep Track of all radios checked
+
+  $('input:radio').each(function() {      // Loop through all radios looking for 5 checked
+    if($(this).is(':checked')) {
+      total++;
+    }
+  });
+
+  if(total < 5){                          // If less than 5 (total survey questions) checked, there are radios missing
+    stop();
+    alert();
   }
 
   first.classList.remove("invalid");    // On each submit click reset input field css class
